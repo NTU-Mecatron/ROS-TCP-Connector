@@ -479,6 +479,8 @@ namespace Unity.Robotics.ROSTCPConnector
 
         void Start()
         {
+            HudPanel.Clear();
+
             InitializeHUD();
 
             HudPanel.RegisterHeader(DrawHeaderGUI);

@@ -124,6 +124,13 @@ namespace Unity.Robotics.ROSTCPConnector
             s_HeaderContents.Add(index, headerContent);
         }
 
+        public static void Clear()
+        {
+            s_HUDTabs.Clear();
+            s_HeaderContents.Clear();
+            s_ActiveWindows.Clear();
+        }
+
         public static void AddWindow(HudWindow window)
         {
             s_ActiveWindows.Add(window);
