@@ -443,7 +443,7 @@ namespace Unity.Robotics.ROSTCPConnector
             if (_instance == null)
             {
                 // Prefer to use the ROSConnection in the scene, if any
-                _instance = FindObjectOfType<ROSConnection>();
+                _instance = FindFirstObjectByType<ROSConnection>();
                 if (_instance != null)
                     return _instance;
 
