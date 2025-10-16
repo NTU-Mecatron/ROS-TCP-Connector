@@ -12,9 +12,9 @@ public class JointTrajectoryDefaultVisualizer : DrawingVisualizer<JointTrajector
     [SerializeField]
     UrdfRobot m_UrdfRobot;
     RobotVisualization m_RobotData;
-#endif
     [SerializeField]
     float m_PathThickness = 0.01f;
+#endif
     [SerializeField]
     Color m_Color;
     [SerializeField]

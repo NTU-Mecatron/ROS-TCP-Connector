@@ -6,10 +6,11 @@ using UnityEngine;
 [CustomEditor(typeof(MultiEchoLaserScanDefaultVisualizer))]
 public class MultiEchoLaserScanEditor : SettingsBasedVisualizerEditor<MultiEchoLaserScanMsg, MultiEchoLaserScanVisualizerSettings>
 {
-    string m_SizeMax = "1000";
-    float m_SizeMaxVal = 1000;
-    string m_SizeMin = "0";
-    float m_SizeMinVal;
+    // Somehow the original creator added these unused variables, commenting them out for now?
+    //string m_SizeMax = "1000";
+    //float m_SizeMaxVal = 1000;
+    //string m_SizeMin = "0";
+    //float m_SizeMinVal;
 
     void CreateMinMaxSlider(ref float[] range, float min, float max)
     {

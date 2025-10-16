@@ -14,7 +14,7 @@ namespace Unity.Robotics.Visualizations
 #if UNITY_EDITOR
                 if (s_Instance == null)
                 {
-                    s_Instance = FindObjectOfType<Drawing3dManager>();
+                    s_Instance = FindFirstObjectByType<Drawing3dManager>();
                     if (s_Instance == null)
                     {
                         GameObject newDebugDrawObj = new GameObject("DrawingManager");
