@@ -199,7 +199,7 @@ namespace Unity.Robotics.ROSTCPConnector
         {
             if (IsPublisher)
             {
-                Debug.LogWarning($"Publisher for topic {m_Topic} registered twice!");
+                Debug.Log($"Publisher for topic {m_Topic} registered twice!");
                 return;
             }
             IsPublisher = true;
